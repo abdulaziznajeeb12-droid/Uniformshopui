@@ -27,7 +27,55 @@
 .App-link {
   color: #61dafb;
 }
+#print-receipts .receipt-copy {
+    width: 72mm;
+    margin: 0 auto;
+    padding: 1mm 0;   /* pehle 3mm tha */
+    box-sizing: border-box;
 
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1;  /* gap kam */
+}
+
+#print-receipts .receipt-item {
+    margin: 0;
+    padding: 0;
+}
+
+#print-receipts .receipt-measurement {
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+}
+
+#print-receipts .rc-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+}
+
+#print-receipts hr {
+    border: 0;
+    border-top: 1px dashed #000;
+    margin: 0.5mm 0;   /* line ke upar neeche gap */
+}
+
+#print-receipts .rc-c {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+}
+
+#print-receipts .rc-big {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0.5mm;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
