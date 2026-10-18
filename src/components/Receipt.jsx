@@ -11,6 +11,7 @@ export default function ReceiptHost() {
 
     const on = (e) => {
       setR(e.detail)
+
     }
 
     window.addEventListener('print-receipt', on)
